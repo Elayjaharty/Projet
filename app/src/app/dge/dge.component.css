@@ -1,0 +1,88 @@
+.flotte {
+    justify-content: center;
+    align-items: center
+}
+
+.containers{
+    width: 96%;
+    height: 95%;
+    border-radius: 3px;
+    margin-left: 2%;
+    position: fixed;
+    overflow: hidden;
+    top: 15px;
+    box-shadow:  
+        0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+        0px 24px 38px 3px rgba(0, 0, 0, 0.14), 
+        0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+.navbar {
+     justify-content: space-between;
+}
+
+.nav{
+    float: right;
+}
+
+.chrch{
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.chrb {
+    width: 33px;
+    height: 33px;
+    padding: 2px;
+}
+
+#vertical {
+    width: 211px;
+    height: 64px;
+    margin: -16px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, transparent, #3f51b5),url('../_image/1280x1920-px-nature-photography-portrait-display-1267221.jpg');
+    background-size: 100%;
+    -webkit-animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 20s linear infinite;
+    }
+
+    @-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: 0 100%;}
+    }
+            
+    @keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: 0 100%;}
+}
+
+.para{
+    margin: -10px 0;
+    font-size: 15px;
+}
+
+.sml {
+    font-size: 10px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -10px;
+}

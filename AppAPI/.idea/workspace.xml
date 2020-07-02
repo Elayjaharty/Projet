@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28d28a50-1cc6-4cc3-a195-5e567de4d009" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1dEjj0mhsFUeyej9nm2o8clRxGi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28d28a50-1cc6-4cc3-a195-5e567de4d009" name="Default Changelist" comment="" />
+      <created>1591997277710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591997277710</updated>
+      <workItem from="1591997279539" duration="174000" />
+      <workItem from="1592036674989" duration="4426000" />
+      <workItem from="1592058018244" duration="1268000" />
+      <workItem from="1592068891135" duration="1879000" />
+      <workItem from="1592109306062" duration="753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="347" y="118" key="FileChooserDialogImpl" timestamp="1592110934753">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="347" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592110934753" />
+  </component>
+</project>

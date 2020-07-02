@@ -1,0 +1,689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"height"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"text",
+				"text-danger"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"b",
+				"border-radius\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"test",
+				"text-align-last\tproperty"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"ecr",
+				"ecrit"
+			],
+			[
+				"va",
+				"entreVar"
+			],
+			[
+				"label",
+				"labelVar"
+			],
+			[
+				"labe",
+				"labelVar"
+			],
+			[
+				"en",
+				"entre"
+			],
+			[
+				"entre",
+				"entreVar"
+			],
+			[
+				"mess",
+				"messagebox"
+			],
+			[
+				"t",
+				"tkinter"
+			],
+			[
+				"p",
+				"pack"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"F",
+				"FenPple"
+			],
+			[
+				"fen",
+				"FenPple"
+			],
+			[
+				"fe",
+				"FenPple"
+			],
+			[
+				"pos",
+				"pos_h"
+			],
+			[
+				"f",
+				"fênetre_h"
+			],
+			[
+				"ecran",
+				"ecran_h"
+			],
+			[
+				"ec",
+				"ecran_l"
+			],
+			[
+				"color",
+				"color_noir"
+			],
+			[
+				"col",
+				"color_blanc"
+			],
+			[
+				"color_",
+				"color_jaune"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"boder",
+				"border-radius\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"my",
+				"mysql_error"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"SESSION",
+				"session_start"
+			],
+			[
+				"m",
+				"mysqli"
+			],
+			[
+				"clo",
+				"close"
+			],
+			[
+				"reque",
+				"requett"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"pr",
+				"preview"
+			],
+			[
+				"list",
+				"listItem"
+			],
+			[
+				"i",
+				"inpFiles"
+			],
+			[
+				"inp",
+				"inpFiles"
+			],
+			[
+				"v",
+				"var"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"ima",
+				"imageProd"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"fil",
+				"files"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"cre",
+				"creatThubnail"
+			],
+			[
+				"this",
+				"This"
+			],
+			[
+				"img",
+				"imgElement"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"I",
+				"INTO"
+			],
+			[
+				"backgr",
+				"background-blend-mode\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"image",
+				"imageproduit"
+			],
+			[
+				"form-",
+				"form-control-sm"
+			],
+			[
+				"bck",
+				"background-image\tproperty"
+			],
+			[
+				"bc",
+				"background-image\tproperty"
+			],
+			[
+				"s",
+				"sgv"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"prix",
+				"prixP"
+			],
+			[
+				"prixpr",
+				"prixprod"
+			],
+			[
+				"coten",
+				"conteneur"
+			],
+			[
+				"aff",
+				"affcarous"
+			],
+			[
+				"typ",
+				"typP"
+			],
+			[
+				"lib",
+				"libP"
+			],
+			[
+				"imag",
+				"imagP"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"check",
+				"checkcarous"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"affi",
+				"Afficher"
+			],
+			[
+				"affcar",
+				"affcard"
+			],
+			[
+				"li",
+				"libprod"
+			],
+			[
+				"chec",
+				"checkcarous"
+			],
+			[
+				"nom",
+				"nomprod"
+			],
+			[
+				"form",
+				"form-control-file"
+			],
+			[
+				"conten",
+				"container-fluid"
+			],
+			[
+				"tx",
+				"text-center"
+			],
+			[
+				"bod",
+				"border-color\tproperty"
+			],
+			[
+				"bou",
+				"button"
+			],
+			[
+				"coml",
+				"col-sm-9"
+			],
+			[
+				"mysqli_",
+				"mysqli_connect"
+			],
+			[
+				"card",
+				"card-3"
+			],
+			[
+				"ali",
+				"align-top"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bg",
+				"bg-secondary"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"min",
+				"mincarousimag"
+			],
+			[
+				"th",
+				"th4"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/app.component.html",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/login/login.component.html",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/app.component.ts",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/register/register.component.html",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/app.module.ts",
+		"/C/Users/admin789/Projet Angular/Login cli/angular.json",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/_components/alert.component.ts",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/home/home.component.html",
+		"/C/Users/admin789/Projet Angular/Login cli/src/app/home/index.ts",
+		"/C/Users/Mc Ary/Desktop/exo/gstyle.css",
+		"/C/Users/Mc Ary/Desktop/python/tkinter/FenPple.py",
+		"/C/Users/Mc Ary/Desktop/exo/accueil.html",
+		"/C/Users/Mc Ary/Desktop/python/pygame/PremierPagePy.py",
+		"/C/Users/Mc Ary/Desktop/exSlider/myslide.html",
+		"/C/Users/Mc Ary/Desktop/python/tkinter/Fenetre2.py",
+		"/C/Users/Mc Ary/Desktop/Dossier bureau/exo/style.css",
+		"/C/Users/Mc Ary/Desktop/python/tkinter/notation tkinter.txt",
+		"/C/Users/Mc Ary/Desktop/python/s.py",
+		"/C/Users/Mc Ary/Desktop/PremierPagePy.py",
+		"/C/Users/Mc Ary/Desktop/exo/style.css",
+		"/C/Users/Mc Ary/Desktop/exo/a-propos.html",
+		"/C/Users/Mc Ary/Desktop/exo/galerie.html",
+		"/C/Users/Mc Ary/Desktop/accueil.html",
+		"/C/Users/Mc Ary/Desktop/galerie.html",
+		"/C/Users/Mc Ary/Desktop/a-propos.html",
+		"/C/Users/Mc Ary/Desktop/a-popos.html",
+		"/C/xampp/htdocs/Gestion etudiant php/index.php",
+		"/C/xampp/htdocs/Gestion etudiant php/supprimer.php",
+		"/C/xampp/htdocs/e-nana/index.php",
+		"/C/xampp/htdocs/exemple d'une administration de gestion d'utilisateur et de groupes/config.inc.php",
+		"/C/xampp/htdocs/exemple d'une administration de gestion d'utilisateur et de groupes/smarty/Smarty.class.php",
+		"/C/xampp/htdocs/exemple d'une administration de gestion d'utilisateur et de groupes/base.sql",
+		"/C/xampp/htdocs/exemple d'une administration de gestion d'utilisateur et de groupes/login.php",
+		"/C/xampp/htdocs/applicationj/page/recherchefin.php",
+		"/C/xampp/htdocs/applicationj/page/history.php",
+		"/C/xampp/htdocs/applicationj/page/gest_pers5.php",
+		"/C/xampp/htdocs/applicationj/page/recherche.php",
+		"/C/xampp/htdocs/applicationj/page/save_account.php",
+		"/C/xampp/htdocs/applicationj/page/save_user.php",
+		"/C/xampp/htdocs/applicationj/images/bg-01.jpg",
+		"/A/affiche image.html",
+		"/C/xampp/htdocs/e-nana/accueil.php",
+		"/A/recherche image.html",
+		"/C/Users/Mc Ary/Documents/recherche image.html",
+		"/C/xampp/htdocs/applicationj/page/create_user.php",
+		"/C/xampp/htdocs/applicationj/page/create_account.php",
+		"/C/xampp/htdocs/e-nana/page/connex.php",
+		"/C/xampp/htdocs/e-nana/css/icomoon.css",
+		"/C/xampp/htdocs/e-nana/page/food.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app-api.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

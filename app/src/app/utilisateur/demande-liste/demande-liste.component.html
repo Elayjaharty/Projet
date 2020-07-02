@@ -1,0 +1,16 @@
+<div class="card shadow mb-3">
+    <div class="card-header text-dark mg"><h3 style="font-weight: bold; padding-left: 50px; ">Liste de vos demandes</h3></div>
+    <div class="card-body bg-light mg">
+        <div class="container col-sm-12 col-md-12 col-lg-10 col-xd-8"  *ngFor=" let d of demande">
+            <div class="card md-3 mb">
+                <div class="card-body">
+                    <h5 class="card-title">{{d.titre}}</h5>
+                    <span class="d-inline-block text-truncate" style="max-width: 100%;">
+                        {{d.contenue}}
+                    </span>
+                    <p class="card-text" class="margin: 0"><small class="text-muted">Ref : {{d.refDm}}</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

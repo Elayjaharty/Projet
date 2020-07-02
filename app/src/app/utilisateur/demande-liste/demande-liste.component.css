@@ -1,0 +1,18 @@
+.pad{
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    height: 40px;
+}
+
+.bg-grey{
+    background-color: #bdbdbd;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+.card-header{
+   height: 50px; 
+}

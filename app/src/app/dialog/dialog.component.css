@@ -1,0 +1,42 @@
+  .terminal {
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin: -24px;
+    padding: 0 24px 24px 24px;
+    border-radius: 4px;
+    padding-top: 45px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .terminal::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(56, 56, 56);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 4px;
+  }
+
+  .terminal pre {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    color: white;
+    padding: 0 1rem 1rem;
+    margin: 0;
+  }
+
+  .container{
+    display: flex;
+    margin: 60px auto 60px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;    
+  }

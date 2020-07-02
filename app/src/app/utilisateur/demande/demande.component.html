@@ -1,0 +1,88 @@
+<div class="container-fluid row" style="margin-bottom: 2px;">
+    <div class="container col-sm-12 col-md-12 col-lg-4 row">
+        <div class="container col-md-4 col-sm-12 col-lg-12 mb-3">
+            <div class="card h-100 border-left-primary shadow py-2 bg-light texte-primary text-center mrl">
+                <div class="card-body">
+                    <h5 class="card-title">Nouvelle demande</h5>
+                    <p class="card-text">Remplisser le formulaire ici présent.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-4 col-sm-12 col-lg-12 mb-3">
+            <div class="card h-100 border-left-danger shadow py-2 bg-light texte-danger text-center mrl">
+                <div class="card-body">
+                    <h5 class="card-title">Liste de vos demande</h5>
+                    <p class="card-text">Clicquer ici pour acceder à vos demande.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-4 col-sm-12 col-lg-12 mb-3">
+            <div class="card h-100 border-left-info shadow py-2 bg-light texte-info text-center mrl">
+                <div class="card-body">
+                    <h5 class="card-title">Accéder à votre profile</h5>
+                    <p class="card-text">Cliquer ici pour acceder à votre profile.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card shadow mb-3 col-sm-12 col-md-12 col-lg-8">
+      <div class="card-header text-dark mg"><h3 style="font-weight: bold; padding-left: 50px;">Envoie de Demande</h3></div>
+      <div class="card-body bg-light mg">
+          <form name="form" class="row" (ngSubmit)="f.form.valid && OnSubmit()" #f="ngForm" novalidate>
+              <div class="form-group col-md-4 row pad" style="margin-bottom: 25px;">
+                  <label for="Im" class="col-sm-4 label pad">Im : </label>
+                  <div class="col-sm-8 pad">
+                      <input type="text" readonly class="form-control-plaintext form-control-sm" id="Im" value="{{infos.IM}}">
+                  </div>
+              </div>
+              <div class="form-group col-md-8 row pad" style="margin-bottom: 25px;">
+                  <label for="id" class="col-sm-5 label pad">Nom et Prenom : </label>
+                  <div class="col-sm-7 pad">
+                      <input type="text" readonly class="form-control-plaintext form-control-sm" id="id" value="{{infos.nom}} {{infos.prenom}}">
+                  </div>
+              </div>
+              <div class="form-group col-md-6">
+                  <label for="inputAddress" class="col-form-label-sm">Direction:</label>
+                  <input type="text" class="form-control form-control-sm" id="inputAddress" value="DGA" disabled>
+              </div>
+              <div class="form-group col-md-6 ">
+                  <label for="inputAddress2" class="col-form-label-sm">Fonction:</label>
+                  <input type="text" class="form-control form-control-sm" id="inputAddress2" value="{{infos.fonction}}" disabled>
+              </div>
+              <div class="form-group col-md-12">
+                  <label for="titre">Titre:</label>
+                  <input type="text" name='titre' id="titre" [(ngModel)]="donnee.titre" #titre="ngModel" class="form-control form-control-sm" placeholder="Titre..." required>
+              </div>
+              <div class="form-group col-md-12">
+                  <label for="contenue">Description de la demande:</label>
+                  <textarea name="contenue" id="contenue" [(ngModel)]="donnee.contenue" #contenue="ngModel" class="form-control form-control-sm" id="validationTextarea" placeholder="Saisissez votre demande..." style="height:150px" required>
+                  </textarea>
+              </div>
+              <div class="col-md-1">
+                  <label for="refDm" class="col-form-label-sm">Ref: </label>
+              </div>
+              <div class="form-group col-md-3">
+                  <input class="form-control form-control-sm" type="text" name="refDm" id="refDm" [(ngModel)]="donnee.refDm" #refDm="ngModel" value="{{ref}}" style="min-width: 200px;" readonly>
+              </div>
+              <div class="col-md-8">
+                  <button type="submit" class="btn btn-sm btn-primary bstyle">Envoyer</button>
+              </div>
+          </form>
+      </div>
+  </div>
+  <div class="container md-3" style="margin-bottom: 1rem !important;" *ngIf="data">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{data.titre}}</h5>
+            <span class="d-inline-block text-truncate" style="max-width: 100%;">
+                {{data.contenue}}
+            </span>
+            <p class="card-text" class="margin: 0"><small class="text-muted">Ref : {{data.refDm}}</small></p>
+        </div>
+    </div>
+  </div>
+  <div class="pad bg-dark text-dark" style="height: 100px; width: 100%;">
+
+  </div>
+</div>
+    

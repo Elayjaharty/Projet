@@ -1,0 +1,31 @@
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+                <th>IM</th>
+                <th>Nom et Prenom</th>
+                <th>E-mail</th>
+                <th>Téléphone</th>
+                <th>Fonction</th>
+                <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let u of utilisateur">
+              <td>{{u.IM}}</td>
+              <td>{{u.nom}} {{u.prenom}}</td>
+              <td>{{u.email}}</td>
+              <td>{{u.tel}}</td>
+              <td>{{u.fonction}}</td>
+              <td> <a href="">supr.</a> <a href="">modif.</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,73 @@
+<div class="card shadow mb-3">
+    <div class="card-header text-dark"><h3 style="font-weight: bold; padding-left: 50px;">Creation d'utilisateur</h3></div>
+    <div class="container col-md-8 cbody">
+        <div class="container text-center col-md-10">
+            <h4>Remplisser cher administrateur le formulaire suivant pour entrer un nouveau utilisaeur.</h4>
+        </div>
+        <div class="card-body bg-light mg">
+            <form name="form" class="" (ngSubmit)="f.form.valid && OnSubmit()" #f="ngForm" novalidate>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="Im" class="col-sm-5 label pad">IM: </label>
+                    <div class="col-sm-7 pad">
+                        <input type="text" class="form-control form-control-sm" name="IM" id="IM" [(ngModel)]="info.IM" #IM="ngModel" required>
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="nom" class="col-sm-5 label pad">Nom: </label>
+                    <div class="col-sm-7 pad">
+                        <input type="text" class="form-control form-control-sm" name="nom" id="nom" [(ngModel)]="info.nom" #nom="ngModel" required>
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="prenom" class="col-sm-5 label pad">Prenom: </label>
+                    <div class="col-sm-7 pad">
+                        <input type="text" class="form-control form-control-sm" name="prenom" id="prenom" [(ngModel)]="info.prenom" #prenom="ngModel" required>
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="email" class="col-sm-5 label pad">Email: </label>
+                    <div class="col-sm-7 pad">
+                        <input type="email" class="form-control form-control-sm" name="email" id="email" [(ngModel)]="info.email" #email="ngModel" required placeholder="ex: email@example.com ">
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="tel" class="col-sm-5 label pad">téléphone: </label>
+                    <div class="col-sm-7 pad">
+                        <input type="number" class="form-control form-control-sm" name="tel" id="tel" [(ngModel)]="info.tel" #tel="ngModel" placeholder="ex: 0320123456 ">
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="fonction" class="col-sm-5 label pad col-form-label-sm">Fonction:</label>
+                    <div class="col-sm-7 pad">
+                        <input type="text" class="form-control form-control-sm" name="fonction" id="fonction" [(ngModel)]="info.fonction" #fonction="ngModel" required>
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="type" class="col-sm-5 label pad" style="padding-top: 8px;">Type:</label>                    
+                    <div class="col-sm-7 pad">
+                        <mat-select [(value)]="type" class="form-control form-control-sm" id="type">
+                            <mat-option>Rien</mat-option>
+                            <mat-option value="Utilisateur">Utilisateur</mat-option>
+                            <mat-option value="Administrateur">Administrateur</mat-option>
+                        </mat-select>
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="mpd" class="col-sm-5 label pad col-form-label-sm">Mot de passe:</label>
+                    <div class="col-sm-7 pad">
+                        <input type="password" class="form-control form-control-sm" name="mpd" id="mpd" [(ngModel)]="info.mpd" #mpd="ngModel" required>
+                    </div>
+                </div>
+                <div class="form-group row pad" style="margin-bottom: 25px;">
+                    <label for="verMpd" class="col-sm-5 label pad col-form-label-sm">Verification mot de passe:</label>
+                    <div class="col-sm-7 pad">
+                        <input type="password" class="form-control form-control-sm" name="verMpd" id="verMpd" [(ngModel)]="verMpd" required>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <button type="submit" class="btn btn-sm btn-primary bstyle">Créer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
