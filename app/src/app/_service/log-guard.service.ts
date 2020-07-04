@@ -13,7 +13,8 @@ export class LoggedGuardService implements CanActivate {
     canActivate () {
         if (this.auth.isLoggedIn()) {
             console.log(this.route);
-            this.router.navigateByUrl(`/${this.route}`);
+            
+            // window.location.pathname = (`/${this.route}`);
             return false;
         }
         return true;

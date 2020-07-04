@@ -76,6 +76,7 @@ export class AuthentificationService {
         this.token = '';
         window.localStorage.removeItem('utilisateurToken');
         window.localStorage.removeItem('direction');
+        window.localStorage.setItem('direction', null)
         this.router.navigateByUrl('/welcome');
     }
 

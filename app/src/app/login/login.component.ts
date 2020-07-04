@@ -32,11 +32,13 @@ export class LoginComponent {
     }
     console.log(this.login.dir);
     
+    localStorage.removeItem('direction');
     this.auth.login(this.login).subscribe(
-      (data) => {
-        console.log(data);
+      (res) => {
+        console.log(res);
         this.dialogRef.close('vous êtes bien connecté.');
         localStorage.setItem('direction', this.data.direction);
+        console.log(this.data.direction)
         this.router.navigateByUrl(this.data.direction);
       },
       err => {

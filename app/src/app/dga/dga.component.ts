@@ -30,7 +30,7 @@ export class DgaComponent implements OnInit {
         this.infos = user
         let dir =  localStorage.getItem('direction')
         if (this.direction == dir) {
-          if (this.infos.admin === true) {
+          if (this.infos.admin == true) {
             this.router.navigate(['admin','dashboard'], {relativeTo: this.route});
           } else {
             this.router.navigate(['user','home'], {relativeTo: this.route});
