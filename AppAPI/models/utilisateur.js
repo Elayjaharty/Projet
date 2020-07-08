@@ -10,13 +10,14 @@ module.exports = (sequelize, DataTypes) => {
     mpd: DataTypes.STRING,
     fonction: DataTypes.STRING,
     admin: DataTypes.BOOLEAN,
-    IdDIRECTION: DataTypes.INTEGER
   }, {});
   Utilisateur.associate = function(models) {
     // associations can be defined here
     models.Utilisateur.belongsTo(models.Direction, {
-      foreignKey: 'IdDIRECTION',
-      as: 'utilisateur'
+      onDelete: "CASCADE",
+      foreignKey: {
+        allowNull: false
+      }
     });
     models.Utilisateur.hasMany(models.Demande);
   };

@@ -42,8 +42,8 @@ module.exports = {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      directionId: {
-        //allowNull: false,
+      DirectionId: {
+        allowNull: false,
         type: Sequelize.INTEGER,
         references: {
           model: 'Directions',

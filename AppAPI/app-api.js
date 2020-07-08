@@ -59,7 +59,7 @@ function initial() {
         mpd: "$2b$05$CzlrWU5z2R8ZkhQmVP.tTOc73lDgCMvsYEF6Bd4HtkKxD7Vt40Hku",
         fonction: "Administrateur",
         admin: 1,
-        IdDIRECTION: 1
+        DirectionId: 1
     })
 
     const admin2 = models.Utilisateur.create({
@@ -72,7 +72,7 @@ function initial() {
         mpd: "$2b$05$CzlrWU5z2R8ZkhQmVP.tTOc73lDgCMvsYEF6Bd4HtkKxD7Vt40Hku",
         fonction: "Administrateur",
         admin: 1,
-        IdDIRECTION: 2
+        DirectionId: 2
     })
 
     const admin3 = models.Utilisateur.create({
@@ -85,6 +85,6 @@ function initial() {
         mpd: "$2b$05$CzlrWU5z2R8ZkhQmVP.tTOc73lDgCMvsYEF6Bd4HtkKxD7Vt40Hku",
         fonction: "Administrateur",
         admin: 1,
-        IdDIRECTION: 3
+        DirectionId: 3
     })
 }

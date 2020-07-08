@@ -82,7 +82,7 @@ module.exports = {
                         mpd: bcryptedPassword,
                         fonction: fonction,
                         admin: admin,
-                        IdDIRECTION: dir
+                        DirectionId: dir
                     })
                     .then(function(newUtil) {
                         return res.status(201).json({
@@ -113,17 +113,17 @@ module.exports = {
         }
         //Existance Verificaion
         models.Utilisateur.findOne({
-            attributes: ['id', 'mpd', 'IdDIRECTION'],
-            where: { email: email, IdDIRECTION: dir }
+            attributes: ['id', 'mpd', 'DirectionId'],
+            where: { email: email, DirectionId: dir }
         })
         .then(function(utilisateurFound) { 
             if (utilisateurFound) {
-                if ( utilisateurFound.IdDIRECTION == dir) {
+                if ( utilisateurFound.DirectionId == dir) {
                     bcrypt.compare(mpd, utilisateurFound.mpd, function( errBcrypt, resBcrypt ) {
                         if(resBcrypt) {
                             return res.status(200).json({
                                 'utilisateurId': utilisateurFound.id,
-                                'direction': utilisateurFound.IdDIRECTION,
+                                'direction': utilisateurFound.DirectionId,
                                 'token':  outilsJwt.generateTokenForUser(utilisateurFound)
                             });
                         } else  {
